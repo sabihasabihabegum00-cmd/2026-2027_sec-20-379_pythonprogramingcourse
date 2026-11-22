@@ -1,0 +1,13 @@
+# Check whether two strings are anagrams
+# This version ignores spaces and capitalization.
+
+first = input("Enter the first string: ")
+second = input("Enter the second string: ")
+
+first_clean = first.replace(" ", "").lower()
+second_clean = second.replace(" ", "").lower()
+
+if sorted(first_clean) == sorted(second_clean):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
