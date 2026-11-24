@@ -1,0 +1,10 @@
+text = input("Enter some text: ")
+
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Title case:", text.title())
+print("Capitalized:", text.capitalize())
+print("Number of characters:", len(text))
+print("Replace spaces with hyphens:", text.replace(" ", "-"))
+print("Does it start with 'A'?", text.startswith("A"))
+print("Does it end with '!'?", text.endswith("!"))
