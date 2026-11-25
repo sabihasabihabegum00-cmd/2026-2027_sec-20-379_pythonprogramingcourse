@@ -1,0 +1,10 @@
+counter = 0  # Global variable
+
+def increment_counter():
+    global counter
+    counter += 1
+
+increment_counter()
+increment_counter()
+
+print("Counter:", counter)
