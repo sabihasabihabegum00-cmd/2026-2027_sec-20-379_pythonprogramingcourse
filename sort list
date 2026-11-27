@@ -1,0 +1,12 @@
+# Sort a list of dictionaries by each student's age
+
+students = [
+    {"name": "Asha", "age": 15},
+    {"name": "Ravi", "age": 13},
+    {"name": "Mina", "age": 16}
+]
+
+sorted_students = sorted(students, key=lambda student: student["age"])
+
+for student in sorted_students:
+    print(student)
